@@ -1,0 +1,23 @@
+body {
+  background-color: #36454F;
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center;
+}
+
+form{
+    color: #FF7F50;
+    align-self: center;
+    margin-left: 40%;
+}
+
+input{
+    padding: 8;
+    margin: 8;
+}
+
+.sportOptions{
+    color: #FF7F50;
+}

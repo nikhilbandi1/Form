@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Favourite Sport</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <div class='header'> 
+        <h1>Welcome</h1>
+    </div>
+    
+    <hr><br>
+    
+    <form action="form_submit.php" method="post">
+        What is your name?<br>
+        <input type="text" name="name"><br><br>
+
+        Which is your favourite sport? <br><br>
+
+        <div class="sportOptions">
+            <input type="radio" id="sp1" name="favsport" value="Cricket">
+            <label for="sp1"> Cricket</label><br>
+
+            <input type="radio" id="sp2" name="favsport" value="Football">
+            <label for="sp2"> Football</label><br>
+
+            <input type="radio" id="sp3" name="favsport" value="Basketball">
+            <label for="sp3"> Basketball</label><br>
+
+            <input type="radio" id="sp4" name="favsport" value="Hockey">
+            <label for="sp4"> Hockey</label><br>
+        </div>
+        
+        <input type="submit">
+    </form>
+    
+    <br><hr>
+</body>
+</html>
