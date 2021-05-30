@@ -6,8 +6,8 @@ $sport = $_POST['favsport'];
 echo "Hi ".$name;
 
 $servername = "localhost";
-$username = "nikhil";
-$password = "Nikhil*123";
+$username = "*****";
+$password = "*******";
 $db = "MateRate";
 
 $conn = new mysqli($servername, $username, $password, $db);
